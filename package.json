@@ -20,7 +20,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "exif-js": "^2.2.1",
-    "exif2css": "^1.2.0"
+    "exif2css": "github:joewoodson/exif2css"
   },
   "peerDependencies": {
     "react": ">=15.0.0 <17.0.0",
