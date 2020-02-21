@@ -26,7 +26,7 @@ class ExifOrientationImg extends Component {
     // Fix for an issue affecting exif-js: see https://github.com/exif-js/exif-js/issues/95
     const windowImage = window.Image
     window.Image = null;
-    
+
     // Do the actual EXIF operations
     if (!EXIF.getData(imageElement, () => {
       this.setState({
